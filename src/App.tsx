@@ -164,67 +164,67 @@ function App() {
       {
           title: "Advanced QR Code System",
           description: "• Versatile QR Code Generation: Supports 14 versions and sizes for applications such as WiFi setup, contact saving, and product info.\n• Integrated Email Functionality: Enables direct sharing of QR codes via email for enhanced accessibility\n• Specialized QR Code Types: Designed for practical uses, including WiFi configuration and product detail",
-          image: "/assets/1.jpg" // Assign image 1
+          image: "/assets/11.jpg" // Assign image 1
       },
       {
           title: "QR Code-Based Student Management System with SQL Integration",
           description: "• Developed Secure QR Code Login: Created MySQL-based database for secure logins and tracking, leveraging QR codes for authentication\n• Designed Teacher Modules: Enabled QR code login for teachers, allowing them to input marks and manage student data efficiently\n• Implemented Data Visualization: Integrated matplotlib to generate dynamic graphs, providing students with visual insights into their performance trends.",
-          image: "/assets/2.jpg" // Assign image 2
+          image: "/assets/21.jpg" // Assign image 2
       },
       {
           title: "Kernel-Builder: Python-Based Linux Kernel Management Tool",
           description: "• Developed Cross-Distro Kernel-Builder Tool: Created a Python-based CLI utility to manage, build, and configure Linux kernels on both Arch and Ubuntu, published on GitHub and the Arch User Repository (AUR).\n• Automated End-to-End Kernel Operations: Streamlined kernel version fetching from kernel.org, applying patches (including PREEMPT_RT), generating .config files, compiling, and updating the bootloader with minimal user effort.\n• Enhanced Real-Time Kernel Performance at HCL Technologies: Upgraded a standard kernel to real-time during an internship, focusing on ext4 filesystem tuning and memory allocation to improve latency and system responsiveness.",
-          image: "/assets/3.jpg" // Assign image 3
+          image: "/assets/31.jpeg" // Assign image 3
       },
       {
           title: "ZephyrAuto+ – Advanced Driver Assistance System (ADAS)",
           description: "• Innovative ADAS Prototype: Developed ZephyrAuto+ with features like Adaptive Evasive Maneuvering, Forward Collision Warning, Lane Guidance Assist, and Adaptive Cruise Control to enhance road safety\n• Real-Time Decision Algorithms: Utilized ultrasonic, IR, RFID, and vibration sensors for accurate hazard detection and collision prevention electric vehicles.\n• Implemented Adaptive Evasive Maneuvering (AEM): Designed a custom safety protocol enabling autonomous steering and emergency braking in real-time, significantly enhancing accident avoidance in dynamic road scenarios.",
-          image: "/assets/4.jpg" // Assign image 4
+          image: "/assets/41.jpg" // Assign image 4
       },
       {
           title: "ZephyrDrive+ - Wind Energy Regeneration System",
           description: "• Built a 3D-Printed Wind Turbine System with a 7kg Metal Mounting Frame, integrating a 12V DC geared motor and Love Jaw coupling, designed for in-motion wind energy harvesting in electric vehicles.\n• Developed a Custom BMS Supporting Simultaneous Charging and Discharging, enabling dynamic energy routing and real-time load balancing to maximize power recovery during motion.\n• Extended EV Battery Range While Reducing Lithium Dependency, by supplementing energy with regenerative wind input—allowing for smaller battery packs without compromising vehicle performance or range.",
-          image: "/assets/5.jpg" // Assign image 5
+          image: "/assets/51.jpg" // Assign image 5
       },
       {
           title: "Computer Vision-Based Driving Assistance System",
           description: "• Developed a Real-Time Driving Assistance System using MobileNet SSD, Canny Edge Detection, and Tesseract OCR to perform object detection, lane tracking, and license plate recognition with up to 92% accuracy.\n• Integrated Proximity-Based Collision Prediction using camera calibration and Time-to-Collision (TTC) estimation, enabling early warnings for accident prevention in dynamic driving scenarios.\n• Implemented CAN Protocol and Socket Communication between PC and Raspberry Pi, allowing low-latency data exchange and real-time control of actuators like steering simulation through curvature angle feedback.",
-          image: "/assets/6.jpg" // Assign image 6
+          image: "/assets/61.jpg" // Assign image 6
       },
       {
           title: "Android App for Ambulance Booking and Hospital Management",
           description: "• Ambulance Booking System: Developed quick ambulance navigation to nearby hospitals\n• Integrated Hospital Management: Provided real-time updates on bed availability and hospital resources\n• Generative AI Prediction Systems: Predicts ailment condition of patient from the ambulance and patients history and suggests whether admission is required.",
-          image: "/assets/7.jpg" // Assign image 7
+          image: "/assets/71.jpg" // Assign image 7
       },
       {
           title: "Blitzkrieg 2K25 Symposium Website",
           description: "• Built and Deployed a Responsive Web Application for a college symposium using React, HTML/CSS, and hosted on Netlify for high performance and accessibility.\n• Integrated Google Forms and Apps Script to manage 200+ registrations from various colleges, automate confirmation emails with unique ID generation, and streamline backend operations.\n• Implemented Seamless Frontend-Workflow Integration, leveraging React and Google Workspace tools to deliver a smooth, efficient user experience.",
-          image: "/assets/8.jpg" // Assign image 8
+          image: "/assets/81.jpg" // Assign image 8
       },
       {
           title: "Smart Non-Contact Voltage Detection and Monitoring System - Hyundai",
           description: "• Developed a Smart Non-Contact Voltage Detection System using the Hall Effect principle to accurately detect AC voltages from 220V to 440V, providing real-time amplitude display to prevent live wire puncture during drilling operations.\n• Enabled Stray Capacitance Detection and Safety Alerts, allowing operators to identify charge buildup on their body and discharge safely—especially crucial in sensitive environments like aluminum foundries.\n• Integrated Multi-Sensor Monitoring with temperature (MLX90614), pressure/altitude (BMP280), and adaptive LED indicators, offering comprehensive safety feedback via OLED display and serial output for use in deep or hazardous zones.",
-          image: "/assets/9.jpg" // Assign image 9
+          image: "/assets/91.jpg" // Assign image 9
       },
       {
           title: "Inventory Maintenance and Stock Book Android Web App – Hyundai",
           description: "• Built a Web-Based Maintenance Stock Explorer using HTML, CSS, and JavaScript, integrated with Google Drive to fetch Excel files, convert them to CSV, and parse stock data in real-time.\n• Implemented Dynamic Search and Filter Logic with full detail transparency, allowing users to quickly locate materials and access specifications, quantities, and part history with ease.\n• Eliminated Manual Updates and Reduced 4+ Hours of Daily Downtime by automating the SAP-to-Google Drive workflow, enabling instant data sync and improving overall production efficiency.",
-          image: "/assets/10.jpg" // Assign image 10
+          image: "/assets/101.jpg" // Assign image 10
       },
       {
           title: "Speed breaker and Pothole Detection System with Dashboard",
           description: "• Engineered a Real-Time Road Anomaly Detection System by integrating YOLOv8 object detection with Arduino-based ultrasonic sensors, enabling accurate identification of potholes, bumps, and road hazards.\n• Mapped Anomalies with Precise Geolocation Markers using Leaflet.js, allowing authorities to visually pinpoint affected areas and prioritize maintenance actions efficiently.\n• Built a Full-Stack Monitoring Dashboard using Python, Node.js, and Socket.IO, streaming live sensor data and confirmed anomaly reports—empowering civic bodies with actionable insights for rapid rectification.",
-          image: "/assets/11.jpg" // Assign image 11
+          image: "/assets/111.jpg" // Assign image 11
       },
       {
           title: "Adaptive Traffic Density Controller using Computer Vision",
           description: "• Designed and Implemented an Adaptive Traffic Signal System using Python, OpenCV, and YOLO, capable of detecting real-time vehicle density to dynamically calculate optimum green signal duration.\n• Integrated Raspberry Pi with Traffic Junction Hardware, enabling live video capture, on-device vehicle counting, and automated control of traffic lights through GPIO pins.\n• Achieved a 79.1% Traffic Flow Efficiency, significantly improving over the 69.4% of traditional systems—reducing congestion and increasing vehicular throughput by 5136 vehicles over 8 hours.",
-          image: "/assets/12.jpg" // Assign image 12
+          image: "/assets/121.jpg" // Assign image 12
       },
       {
           title: "Cross-Folder Duplicate Finder and Remover Using Content Hashing",
           description: "• Built an Intelligent Duplicate Media Detection Tool in Python that recursively scans folders and ZIP files to detect duplicate images and videos using MD5 hashing and size-based matching, even when filenames differ or files are nested in compressed archives.\n• Generated Comprehensive Reports outlining each duplicate’s original location, type, and size, and safely preserved the earliest modified copy while moving redundant files to the recycle bin to prevent accidental loss.\n• Designed an Intuitive, User-Controlled Workflow featuring real-time progress bars, ETA prediction, and a two-phase deep cleanup process that allows review, confirmation, and efficient disk space recovery with full transparency",
-          image: "/assets/13.jpg" // Assign image 13
+          image: "/assets/131.jpg" // Assign image 13
       }
   ];
 
@@ -349,17 +349,17 @@ function App() {
             <h2 className="text-3xl font-bold mb-12 text-gray-800 dark:text-white text-left">Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {projectsData.map((project, i) => (
-                <Card key={i}>
-                  {/* Use the assigned image path */}
-                  <img src={project.image} alt={project.title} className="rounded-lg mb-4 w-full h-48 object-cover bg-gray-200 dark:bg-gray-700" />
-                  <h3 className="text-xl font-semibold mb-2 text-gray-700 dark:text-teal-400">{project.title}</h3>
-                  {/* Use ProjectDescription component for bullet points */}
-                  <ProjectDescription description={project.description} />
-                  <div className="flex gap-4">
-                    <a href="#" className="text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 font-medium transition-colors">View Demo</a>
-                    <a href="#" className="text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 font-medium transition-colors">Source Code</a>
-                  </div>
-                </Card>
+          <Card key={i}>
+            {/* Use the assigned image path */}
+            <img src={project.image} alt={project.title} className="rounded-lg mb-4 w-full h-72 object-cover bg-gray-200 dark:bg-gray-700" />
+            <h3 className="text-xl font-semibold mb-2 text-gray-700 dark:text-teal-400">{project.title}</h3>
+            {/* Use ProjectDescription component for bullet points */}
+            <ProjectDescription description={project.description} />
+            <div className="flex gap-4">
+              <a href="#" className="text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 font-medium transition-colors">{/*View Demo*/}</a>
+              <a href="#" className="text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 font-medium transition-colors">{/*Source Code*/}</a>
+            </div>
+          </Card>
               ))}
             </div>
           </div>
