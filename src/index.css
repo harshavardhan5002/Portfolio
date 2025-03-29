@@ -1,0 +1,74 @@
+/* Import Playfair Display font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Removed Inter font import */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    /* font-sans will now apply Playfair Display via tailwind.config.js */
+    @apply antialiased text-gray-800 font-sans;
+    background-image: url('/assets/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  html.dark body {
+    @apply text-gray-200 relative;
+  }
+  html.dark body::before {
+    content: "";
+    @apply absolute inset-0 bg-black/60 z-[-1];
+  }
+}
+
+@layer components {
+  .nav-pill {
+    @apply px-4 py-2 rounded-full bg-white/30 backdrop-blur-sm text-gray-700
+           hover:bg-white/50 hover:text-teal-600 transition-all duration-200
+           font-medium shadow-sm hover:shadow-md text-sm
+           dark:bg-gray-700/40 dark:text-gray-300 dark:hover:bg-gray-600/60 dark:hover:text-teal-400 dark:border dark:border-gray-600/50;
+  }
+
+  /* Updated Skill Card - Pill shape */
+  .individual-skill-card {
+    @apply bg-gradient-to-br from-gray-100/80 to-white/80 text-gray-700
+           rounded-full /* Make it a pill */
+           shadow-md px-6 py-3 /* Adjust padding for pill shape */
+           flex items-center justify-center /* Center content horizontally */
+           gap-3 /* Add gap between icon and text */
+           transition-all duration-300 hover:shadow-xl hover:scale-105
+           border border-gray-200/50 backdrop-blur-sm
+           dark:from-gray-800/80 dark:to-gray-900/80 dark:text-white dark:border-gray-700/50 dark:backdrop-blur-sm;
+           /* Removed aspect-square, changed padding/justification */
+  }
+
+  .individual-skill-icon {
+    @apply w-6 h-6 text-teal-500 dark:text-teal-400 flex-shrink-0; /* Slightly smaller icon */
+    /* Removed margin-bottom */
+  }
+
+  /* Updated Card Base with Glow/Glass Effect */
+  .card-base {
+     @apply bg-white/60 rounded-xl shadow-lg p-6 backdrop-blur-md border border-white/20 /* Adjusted opacity/blur */
+            dark:bg-slate-800/50 dark:border-slate-700/30 dark:shadow-xl
+            /* Added glow effect */
+            shadow-teal-500/10 dark:shadow-teal-400/20 hover:shadow-teal-500/20 dark:hover:shadow-teal-400/30 transition-shadow duration-300;
+  }
+}
+
+/* Define animations */
+@layer utilities {
+  .animate-fade-in { animation: fadeIn 0.8s ease-out forwards; }
+  .animate-fade-in-left { animation: fadeInLeft 0.6s ease-out forwards; }
+}
+
+/* Keyframes */
+@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeInLeft { from { opacity: 0; transform: translateX(-40px); } to { opacity: 1; transform: translateX(0); } }
