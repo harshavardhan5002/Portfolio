@@ -290,7 +290,7 @@ function App() {
                 <div className="inline-block mb-3 px-5 py-1 rounded-full bg-white/40 dark:bg-slate-700/70 backdrop-blur-sm border border-white/20 dark:border-slate-600/50 shadow-md dark:shadow-lg dark:shadow-teal-500/20 transition-shadow duration-300"><h1 className="text-2xl md:text-3xl font-bold text-teal-600 dark:text-teal-300">Harshavardhan S</h1></div>
                 <p className="text-gray-700 dark:text-gray-300 text-md md:text-lg mb-4">A meticulous and organized individual with a strong interest in Electric Vehicles, Power,
                 Energy, Automation, Mobility, Computer Vision, AI & ML.</p>
-                <div className="flex gap-4 justify-center sm:justify-start"><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"><Github size={24} /></a><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"><Linkedin size={24} /></a></div>
+                <div className="flex gap-4 justify-center sm:justify-start"><a href="https://github.com/harshavardhan5002" className="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"><Github size={24} /></a><a href="https://www.linkedin.com/in/harshavardhan-somanathan/" className="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"><Linkedin size={24} /></a></div>
               </div>
             </div>
           </Card>
@@ -464,21 +464,21 @@ function App() {
           <Card className="max-w-2xl mx-auto text-center"> {/* Added text-center */}
             <h2 className="text-3xl font-bold mb-8 text-gray-800 dark:text-white">Contact Me</h2> {/* Reduced margin */}
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              Feel free to reach out via email or connect on LinkedIn.
+              Feel free to reach out to me via email or connect on LinkedIn.
             </p>
             {/* Removed the form */}
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6">
-              <a href="mailto:email@example.com" className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors text-lg"> {/* Increased text size */}
-                <Mail size={22} /> email@example.com
+              <a href="mailto:harshavardhansomanathan@gmail.com" className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors text-lg"> {/* Increased text size */}
+                <Mail size={22} /> harshavardhansomanathan@gmail.com
               </a>
-              <a href="#" className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors text-lg"> {/* Increased text size */}
+              <a href="https://www.linkedin.com/in/harshavardhan-somanathan/" className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors text-lg"> {/* Increased text size */}
                 <Linkedin size={22} /> LinkedIn
               </a>
             </div>
           </Card>
         </Section>
       </main>
-      <footer className="text-center py-8 text-gray-500 dark:text-gray-400">© {new Date().getFullYear()} Harshavardhan S. All rights reserved.</footer>
+      {/*<footer className="text-center py-8 text-gray-500 dark:text-gray-400">© {new Date().getFullYear()} Harshavardhan S. All rights reserved.</footer>*/}
     </div>
   );
 }
