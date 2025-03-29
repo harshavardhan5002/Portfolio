@@ -288,7 +288,7 @@ function App() {
               <div className="flex-shrink-0"><img src="/assets/dp.jpg" alt="Profile" className="rounded-full w-32 h-32 md:w-40 md:h-40 object-cover shadow-lg border-4 border-teal-500 dark:border-teal-400" /></div>
               <div className="flex-1 text-center sm:text-left">
                 <div className="inline-block mb-3 px-5 py-1 rounded-full bg-white/40 dark:bg-slate-700/70 backdrop-blur-sm border border-white/20 dark:border-slate-600/50 shadow-md dark:shadow-lg dark:shadow-teal-500/20 transition-shadow duration-300"><h1 className="text-2xl md:text-3xl font-bold text-teal-600 dark:text-teal-300">Harshavardhan S</h1></div>
-                <p className="text-gray-700 dark:text-gray-300 text-md md:text-lg mb-4">A meticulous and organized individual with a strong interest in Electric Vehicles, Power,
+                <p className="text-gray-700 dark:text-gray-300 text-md md:text-lg mb-4">A meticulous and organized Electrical and Electronics Engineering Graduate with a strong interest in Electric Vehicles, Power,
                 Energy, Automation, Mobility, Computer Vision, AI & ML.</p>
                 <div className="flex gap-4 justify-center sm:justify-start"><a href="https://github.com/harshavardhan5002" className="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"><Github size={24} /></a><a href="https://www.linkedin.com/in/harshavardhan-somanathan/" className="text-gray-600 dark:text-gray-400 hover:text-teal-600 dark:hover:text-teal-400 transition-colors"><Linkedin size={24} /></a></div>
               </div>
