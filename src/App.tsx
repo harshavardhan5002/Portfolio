@@ -164,7 +164,7 @@ function App() {
       {
           title: "Advanced QR Code System",
           description: "• Versatile QR Code Generation: Supports 14 versions and sizes for applications such as WiFi setup, contact saving, and product info.\n• Integrated Email Functionality: Enables direct sharing of QR codes via email for enhanced accessibility\n• Specialized QR Code Types: Designed for practical uses, including WiFi configuration and product detail",
-          image: "/assets/11.jpg" // Assign image 1
+          image: "/assets/11.png" // Assign image 1
       },
       {
           title: "QR Code-Based Student Management System with SQL Integration",
